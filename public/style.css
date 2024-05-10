@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    background-color: #f0f0f0;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.msg {
+    padding: 12px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    word-wrap: break-word; /* Allow long messages to wrap */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.from, .to {
+    font-weight: bold;
+}
+
+.form {
+    display: inline-block; /* Display form inline */
+}
+
+.button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.button.delete {
+    background-color: #f44336;
+}
+
+.button.edit {
+    background-color: #2196f3;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
