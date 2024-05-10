@@ -6,7 +6,6 @@ This is a simple chat application built for learning purposes, using MongoDB, Ex
 
 - Real-time messaging between users
 - Edit and delete messages
-- [Add more features]
 
 ## Installation
 
